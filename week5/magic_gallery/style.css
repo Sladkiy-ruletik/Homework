@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+}
+header {
+  background-image: url(/assets/oboi_header.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.box_header {
+  max-width: 1590px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 1vw;
+}
+.title_header {
+  width: 100%;
+  margin-top: 1.5vw;
+  margin-left: 3vw;
+  text-align: left;
+  font-size: xx-large;
+  color: rgb(190, 190, 190);
+}
+main {
+  max-width: 1590px;
+  margin: 0 auto;
+  background-color: rgb(69, 68, 68);
+}
+.navbar {
+  width: 100%;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 1vw;
+  list-style-type: none;
+  text-align: center;
+}
+.item {
+  width: 100%;
+  background-color: rgb(121, 121, 121);
+  border-radius: 10px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease;
+  font-size: larger;
+  padding: 1vw;
+  line-height: 3vw;
+}
+a:hover {
+  color: rgb(212, 254, 114);
+}
+.galery {
+  text-align: center;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+.title {
+  margin: 0;
+  font-size: x-large;
+  line-height: 3vw;
+}
+.conteiner {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 1vw;
+}
+.content {
+  max-width: 20%;
+  margin: 0;
+}
+img {
+  width: 100%;
+}
+.effects {
+  transition: filter 0.3s, transform 0.3s;
+}
+.effects:hover {
+  filter: brightness(1.5);
+  transform: scale(1.1);
+}
